@@ -1,0 +1,155 @@
+.root {
+  max-width: 1140px;
+  font-family: "Space Grotesk", serif;
+  margin: 0 auto;
+
+  .title {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 30.62px;
+    margin-top: 39px;
+    margin-bottom: 24px;
+  }
+
+  h3 {
+    font-size: 15px;
+  }
+
+  .sortby__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 30px;
+  }
+
+  .filter__container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .select__container {
+    padding: 10px;
+    width: 15%;
+    border: 1px solid #1f1d1b;
+    border-radius: 10px;
+    background: none;
+  }
+
+  .search__container {
+    position: relative;
+    width: 30%;
+    padding: 10px;
+    border: 1px solid #1f1d1b;
+    border-radius: 10px;
+  }
+
+  .search__input {
+    background: none;
+  }
+
+  .search__icon {
+    background: none;
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+  }
+
+  .pagination {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    margin: 50px 0;
+
+    li{
+      padding: 5px 10px;
+      border-radius: 5px;
+      background-color: none;
+      border: 1px solid #1f1d1b;
+      cursor: pointer;
+    }
+
+    li:hover{
+      background-color: #faeedf;
+      transition: all 0.5s ease 0s;
+    }
+  }
+
+  .pagination__active {
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+
+  .perPage__container {
+    display: flex;
+    justify-content: center;
+    margin: 30px 0;
+    gap: 10px;
+  }
+
+  .radio__container {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+
+
+  .checkboxes__container {
+    display: flex;
+    gap: 10px;
+  }  
+
+  @media (max-width: 1130px) {
+    padding: 0 20px;
+  }
+
+  @media (max-width: 650px) {
+    .title__wrap {
+      display: flex;
+      justify-content: center;
+      
+    }
+
+    .title {
+      margin: 40px 0;
+    }
+
+    .search__container {
+      width: 35%;
+    }
+
+    .select__container {
+      width: 20%;
+    }
+
+    .wrap {
+      margin-bottom: -60px;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .filter__container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .search__container {
+      width: 50%;
+    }
+
+    .select__container {
+      width: 30%;
+    }
+    
+    h3 {
+      font-size: 13px;
+    }
+  }
+  
+}

@@ -1,0 +1,20 @@
+.root {
+  min-height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+
+  h1 {
+    font-size: 32px;
+  }
+
+  .link {
+    padding: 10px;
+    border: 1px solid #1f1d1b;
+    border-radius: 10px;
+    background: none;
+    color: #1f1d1b;
+  }
+}

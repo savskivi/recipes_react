@@ -1,0 +1,71 @@
+.root {
+  max-width: 1140px;
+  width: 100%;
+  margin: 0 auto;
+  font-family: "Space Grotesk", serif;
+  color: #1f1d1b;
+
+  .logo {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+
+  .logo__name {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 30.62px;
+    color: #1f1d1b;
+  }
+
+  header {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 29px;
+  }
+
+  nav {
+    display: flex;
+    gap: 48px;
+    align-items: center;
+  }
+
+  .header__link,
+  .header__link_active {
+    color: #1f1d1b;
+    font-size: 16px;
+    line-height: 20.42px;
+  }
+
+  .header__link:hover,
+  .header__link_active:hover {
+    color: #6d6d6d;
+    transition: all 0.3s ease 0s;
+  }
+
+  .header__link_active {
+    font-weight: bold;
+  }
+
+  @media (max-width: 1130px) {
+    padding: 0 20px;
+  }
+
+  @media (max-width: 600px) {
+    header {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 30px;
+    }
+  }
+
+  @media (max-width: 400px) {
+    .header__link,
+  .header__link_active {
+    font-size: 14px;
+  }
+}
+}
