@@ -1,50 +1,60 @@
+import img1 from './assets/lunch.jpg';
+import img2 from './assets/dinner.jpg';
+import img3 from './assets/snack.jpg';
+import img4 from './assets/dessert.jpg';
+import img5 from './assets/side_dish.jpg';
+import img6 from './assets/appetizer.jpg';
+import img7 from './assets/breakfast.jpg';
+import img8 from './assets/beverage.jpg';
+
+
 export const mealTypes = [
   {
     id: 1,
     name: "Lunch",
-    img: "/src/assets/lunch.jpg",
+    img: img1,
   },
 
   {
     id: 2,
     name: "Dinner",
-    img: "/src/assets/dinner.jpg",
+    img: img2,
   },
 
   {
     id: 3,
     name: "Snack",
-    img: "/src/assets/snack.jpg",
+    img: img3,
   },
 
   {
     id: 4,
     name: "Dessert",
-    img: "/src/assets/dessert.jpg",
+    img: img4,
   },
 
   {
     id: 5,
     name: "Side Dish",
-    img: "/src/assets/side_dish.jpg",
+    img: img5,
   },
 
   {
     id: 6,
     name: "Appetizer",
-    img: "/src/assets/appetizer.jpg",
+    img: img6,
   },
 
   {
     id: 7,
     name: "Breakfast",
-    img: "/src/assets/breakfast.jpg",
+    img: img7,
   },
 
   {
     id: 8,
     name: "Beverage",
-    img: "/src//assets/beverage.jpg",
+    img: img8,
   },
 ];
 
