@@ -1,4 +1,3 @@
-import React from "react";
 import st from "./RecipeCategory.module.scss";
 import RecipeCard from "../recipe-card/RecipeCard";
 import { RecipeT } from "../../types";

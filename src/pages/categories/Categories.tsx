@@ -1,4 +1,4 @@
-import React, { useCallback, useEffect, useState } from "react";
+import { useCallback, useEffect, useState } from "react";
 import st from "./Categories.module.scss";
 import axiosInstance from "../../axiosinstance";
 import searchIcon from "../../assets/search.svg";

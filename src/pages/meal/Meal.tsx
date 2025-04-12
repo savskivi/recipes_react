@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import st from "./Meal.module.scss";
 import RecipeCategory from "../../components/recipe-category/RecipeCategory";
 import { useParams } from "react-router";

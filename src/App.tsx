@@ -7,7 +7,6 @@ import Meal from "./pages/meal/Meal";
 import { useEffect, useState } from "react";
 import { RecipeT } from "./types";
 import Favorites from "./pages/favorites/Favorites";
-import NotFound from "./pages/not-found/NotFound";
 
 function App() {
   const [favorites, setFavorites] = useState<RecipeT[]>(getFavorites());
@@ -78,7 +77,9 @@ function App() {
           }
         />
 
-        <Route path="*" element={<NotFound />} />
+        {/* <Route path="/recipes_react" element={<Navigate to={"/"} />} />
+
+        <Route path="*" element={<NotFound />} /> */}
       </Routes>
     </>
   );
